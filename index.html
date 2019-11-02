@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,13 +17,15 @@
             border: 1px solid green;
         }
         .my-row{
-            border: 3px solid red;
+            border: 1px solid lightgray;
+            padding:0;
         }
         .my-column{
             border: 3px dotted blue;
+            
         }
     </style>
-<nav class="navbar navbar-expand-lg navbar-light bg-light my-row">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="col"></div>
         <a class="navbar-brand col-3 my-col bg-info text-white text-bold" href="#">Abdiwahab Ahmed</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,18 +46,16 @@
           </ul>
         </div>
       </nav>
-
-    <div class="container my-container">
-        <div class="row my-row">
-            <div class="col-6 my-column">
-                row 1 col 1
-            </div>
-            <div class="col my-column">
-                row 1 col 2
-            </div>
-            <div class="col my-column">
-                row 1 col 3
-            </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 bg-light"></div>
+            <div class="col-6">
+              <div class="row bg-light"></div>
+                <div class="row my-row">
+                  inner row 2
+                </div>
+                <div class="row bg-light"></div></div>
+            <div class="col-3 bg-light"></div>
         </div>
     </div>
 
