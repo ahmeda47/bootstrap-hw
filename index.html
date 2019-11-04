@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>About Me</title>
 </head>
 <body>
     <style>
-        body {
-            margin:30px;
-        }
         .my-container{
-            border: 1px solid green;
-            height:100vw;
+            height:60vw;
             border-top: 1px solid lightgray;
         }
         .my-row{
           margin-top: 3vw;
         }
-        .about{
+        .row-about{
             border: 1px solid lightgray;
         }
+        img{
+          height: 350px;
+        }
+
     </style>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light p-0">
     <div class="col"></div>
-        <a class="navbar-brand col-3 my-col bg-info text-white text-bold" href="#">Abdiwahab Ahmed</a>
+        <a class="navbar-brand col-3 my-col bg-info text-white" href="#">Abdiwahab Ahmed</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,30 +35,43 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item col">
-              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item col">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item col">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
+      
     <div class="container-fluid my-container bg-light">
         <div class="row my-row">
             <div class="col-3"></div>
-            <div class="col-6">
+            <div class="col-6 bg-white">
               <div class="row bg-light"></div>
-                <div class="row about">
-                  inner row 2
+                <div class="row row-about">
+                  <div class="about-box">
+                    <h1 class = "h1"> About Me</h1>
+                    <p> 
+                      <img src="./assets/images/Screen Shot 2019-10-27 at 8.09.53 PM.png" class="rounded float-left mt-1 mr-2">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sequi fuga cupiditate voluptate praesentium natus aperiam molestiae unde necessitatibus esse illum fugit minus atque voluptatum debitis excepturi, commodi placeat. Beatae quo porro vero reprehenderit nisi? Incidunt quos aspernatur assumenda in deserunt consequuntur molestias ab iste rerum quidem, nihil vero, obcaecati dolor eligendi omnis inventore qui? Dignissimos ab, nostrum porro cum eum repellendus quaerat! Quos consectetur quibusdam placeat tempora animi ipsum esse culpa laborum, quae facilis accusamus magni minima a sunt libero incidunt, qui aut? Ad eligendi optio corporis ex molestias molestiae similique dolore aspernatur, odio minima quae delectus culpa aut cupiditate dolor mollitia veritatis accusantium velit quam eum cum reiciendis accusamus nemo iste. Culpa assumenda numquam libero in perferendis tempora aperiam veniam adipisci voluptas sed autem eaque hic architecto nisi nulla eveniet porro, veritatis est tempore placeat officia dignissimos quasi ducimus mollitia? Possimus ad assumenda voluptatem. Voluptate excepturi adipisci pariatur?
+                    </p>
+                  </div>
                 </div>
                 <div class="row bg-light"></div>
             </div>
             <div class="col-3"></div>
         </div>
     </div>
+
+    <footer  class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Copyright &copy;</small>
+      </div>
+    </footer>
 
 </body>
 </html>

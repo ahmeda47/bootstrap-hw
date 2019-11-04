@@ -1,13 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>About Me</title>
 </head>
 <body>
-    
+    <style>
+        .my-container{
+            height:60vw;
+            border-top: 1px solid lightgray;
+        }
+        .my-row{
+          margin-top: 3vw;
+        }
+        .row-about{
+            border: 1px solid lightgray;
+        }
+        img{
+          height: 350px;
+        }
+
+    </style>
+<nav class="navbar navbar-expand-lg navbar-light p-0">
+    <div class="col"></div>
+        <a class="navbar-brand col-3 my-col bg-info text-white" href="#">Abdiwahab Ahmed</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-5"></div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item col">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item col">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item col">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+    <div class="container-fluid my-container bg-light">
+        <div class="row my-row">
+            <div class="col-3"></div>
+            <div class="col-6 bg-white">
+              <div class="row bg-light"></div>
+                <div class="row row-about">
+                  <div class="about-box">
+                    <h1 class = "h1"> Contact</h1>
+
+                  </div>
+                </div>
+                <div class="row bg-light"></div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+    <footer  class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Copyright &copy;</small>
+      </div>
+    </footer>
+
 </body>
 </html>
