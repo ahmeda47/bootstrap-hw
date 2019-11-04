@@ -15,14 +15,14 @@
         }
         .my-container{
             border: 1px solid green;
+            height:100vw;
+            border-top: 1px solid lightgray;
         }
         .my-row{
-            border: 1px solid lightgray;
-            padding:0;
+          margin-top: 3vw;
         }
-        .my-column{
-            border: 3px dotted blue;
-            
+        .about{
+            border: 1px solid lightgray;
         }
     </style>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -46,16 +46,17 @@
           </ul>
         </div>
       </nav>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-3 bg-light"></div>
+    <div class="container-fluid my-container bg-light">
+        <div class="row my-row">
+            <div class="col-3"></div>
             <div class="col-6">
               <div class="row bg-light"></div>
-                <div class="row my-row">
+                <div class="row about">
                   inner row 2
                 </div>
-                <div class="row bg-light"></div></div>
-            <div class="col-3 bg-light"></div>
+                <div class="row bg-light"></div>
+            </div>
+            <div class="col-3"></div>
         </div>
     </div>
 
